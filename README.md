@@ -1,2 +1,3 @@
-# UGR-4176-12
-MY REPOSITORY FOR PROJECT SITE
+# Personal portfolio and profile page
+Name : Zienamarkos Molla Asmare
+ID :  UGR/4176/12
