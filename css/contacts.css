@@ -1,0 +1,82 @@
+html{
+    scroll-behavior: smooth;
+}
+.contact-list ul{
+    margin-left: 5px;
+    
+
+}
+a{
+    color: white;
+}
+.contact-list div{
+    text-align: center;
+    
+}
+.form-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20rem);
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 30px;
+    margin-top: 2rem;
+   
+}
+
+.contact-list{
+    max-width: 600px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: black;
+    margin-left: 5px;
+    background-color: black;
+    color: white;
+    border-top: none;
+    font-size: larger;
+    word-wrap: break-word;
+    margin-right: 10px;
+
+   
+}
+.form{
+    border-style: solid;
+    border-color: black;
+    border-top: none;
+    text-align: center;
+    max-width: 600px;
+    border-bottom: none;
+    border-right:none ;
+   
+}
+.call{
+    color: red;
+    text-align: center;
+    align-items: center;
+    font-weight: bolder;
+    text-shadow: 3px 3px 3px gray;
+    margin-left: 50px;
+    font-size:200px ;
+    transition: width 0.5s, height 0.5s;
+}
+.call:hover{
+    color: rgb(65, 248, 9);
+    
+}
+form input{
+    max-width: 300px;
+    border-radius: 6px;
+    border: rebeccapurple;
+    align-items: center;
+    height: fit-content;
+    border:solid ;
+    
+}
+.input-style{
+    background: transparent;
+    
+}
+form #textarea{
+    border-radius: 5px;
+    color: gray;
+}

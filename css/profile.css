@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+.my-profile img{
+    width: 150px;
+    height: 250px;
+    border-radius: 50%;
+    background-position: top left;
+    background-size: contain; 
+      
+}
+.profile{
+    display: flex;
+    justify-content: center;
+    align-content: space-between;
+    justify-content: space-between;
+    background-color: chartreuse;
+    flex-wrap: wrap;
+    background-image: url("images/iceberg.jpg");
+    height: fit-content;
+    margin: 15px;
+    
+    
+}
+.pro-container1{
+    background-color:rgb(12, 7, 46);
+    align-content:center ;
+    max-width: 300px;
+    min-height: 400px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    color: white;
+    padding: 5px;
+
+}
+.pro-container2{
+    align-content:center ;
+    max-width: 300px;
+    min-height: 400px;
+    margin-right: 2rem;
+    margin-top: 2rem;
+    background-color:rgb(12, 7, 46);
+    color: white;
+    padding: 5px;
+
+}
+

@@ -1,0 +1,62 @@
+html{
+    scroll-behavior: smooth;
+}
+.work{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: fit-content;
+    background-image: url("images/SE2.jpg");
+    background-size: cover;
+    justify-content: center;
+    justify-content: space-between;
+}
+.work1{
+    background-color: white;
+    max-width: 300px;
+    border-right: solid;
+    padding: 10px;
+    align-items: flex-start;
+    margin: 10px; 
+    align-items: center; 
+    
+    
+
+}
+.work2{
+    max-width: 400px;
+    align-items: flex-end;
+    margin: 10px;
+    height: fit-content;
+    padding: 10px;
+    background-color: white;
+}
+.team{
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-width: 400px;
+    height: fit-content;
+    justify-content: center;
+    margin-top: 15px;
+    background-color: white;
+    padding: 15px;
+    margin: 10px;  
+}
+
+table tr th, td{
+    align-items: center;
+    color: whitesmoke;
+    font-size: x-large;
+    padding: 10px;
+}
+tr{
+    background-color: grey;
+}
+table tr{
+    max-width: 100%;
+    height: fit-content;
+    justify-content: center;
+    word-wrap: break-word;
+}
+
+

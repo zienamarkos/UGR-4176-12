@@ -1,0 +1,86 @@
+html{
+    scroll-behavior: smooth;
+}
+.goals{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20rem);
+    justify-content: center;
+    margin: 10px;
+    column-gap: 30px;
+    
+}
+.short-term{
+    transition: transform 2s;
+    overflow: hidden;
+    padding: 15px;
+}  
+.long-term{
+    transition: transform 2s;
+    overflow: hidden;
+    padding: 15px;
+
+}
+ video{
+    max-width: 300px;
+    margin: 10px;
+}
+.proff{
+    align-items: center;
+    justify-content: center;
+    max-width: 80%;
+    height: fit-content;
+    margin-top: 1rem;
+    margin: 10px;
+}
+.proff img{
+    width: 90%;
+    height: fit-content;   
+    justify-content: center;
+    margin: 10px;
+}
+.long-term:hover{
+    transform: scale(1.2);
+}
+.short-term:hover{
+    transform: scale(1.2);
+}
+#hope{
+    text-align: center;
+    width: 200px;
+    animation-name: animate-hope;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;
+
+}
+h1{
+    color: white;
+    text-align: center;
+    width: 200px;
+    animation-name: animate-hope;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+
+
+}
+@keyframes animate-hope{
+    0%{
+        background: rgb(10, 10, 10);
+        transform:translate(0%,0%)
+
+    }
+    50%{
+        background: rgb(255, 0, 170);
+        transform:translate(10%,10%);
+    }
+    100%{
+        background: red;
+        transform:translate(20%,20%);
+    }
+
+}

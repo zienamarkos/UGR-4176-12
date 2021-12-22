@@ -1,0 +1,26 @@
+html{
+    scroll-behavior: smooth;
+}
+.abt-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20rem);
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 20px;
+
+}
+.ab1{
+    border-radius: 10px;
+    border-style: groove;
+    text-align: center;
+
+}
+.ab2{
+    border-style: groove;
+    text-align: center;
+    border-radius: 10px;
+}
+.ab3{
+    margin: 10px;
+}

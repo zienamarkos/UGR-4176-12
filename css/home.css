@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+}
+#home{
+    background-image: url("images/icewater.jpg");
+    background-size: cover;
+    
+}
+.footer{
+    background: scroll;
+    background-color: rgb(49, 23, 63);
+    text-align: start;
+    font-style: italic;
+    color: white;
+    text-transform: uppercase;
+    height: 40px; 
+    text-shadow: 2px 2px 3px gray;
+    font-size: xx-large;
+    width: 100%;
+   
+    
+    
+}
+.footer a.footer-in{
+    text-transform: lowercase;
+}
+h2{
+    border-style: double;
+    border-color: black;
+    border-radius: 15px;
+    text-align: center;
+}
+.grid-container{
+    background-image: url("images/SE2.jpg");
+    background-size: contain;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,20rem);
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+    column-gap: 20px;
+    
+}
+.item1{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    
+    
+}
+.item1 img{
+    margin-right: 10px;
+}
+.item2{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+.item3{
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    margin: 5px;
+}
+.footer a{
+    margin-right: 5px;
+    justify-content: space-between;
+    color: rgb(249, 250, 249);
+    margin-right: 20px;
+    float: right;   
+}
+
+
+@media screen and (max-width:600px){
+    .footer{
+        height: 30px; 
+        font-size: large;  
+    }
+}
+
