@@ -13,12 +13,13 @@ html{
     display: flex;
     justify-content: center;
     align-content: space-between;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: chartreuse;
     flex-wrap: wrap;
-    background-image: url("images/iceberg.jpg");
+    background-image: url("../images/iceberg.jpg");
     height: fit-content;
     margin: 15px;
+    align-items: center;
     
     
 }
@@ -27,8 +28,8 @@ html{
     align-content:center ;
     max-width: 300px;
     min-height: 400px;
-    margin-top: 2rem;
-    margin-left: 2rem;
+    margin-top: 5px;
+    margin-left: 5px;
     color: white;
     padding: 5px;
 
@@ -37,11 +38,16 @@ html{
     align-content:center ;
     max-width: 300px;
     min-height: 400px;
-    margin-right: 2rem;
-    margin-top: 2rem;
+    margin-top: 10px;
     background-color:rgb(12, 7, 46);
     color: white;
     padding: 5px;
+    right: 10px;
 
+}
+.pro-container2 .img1 img{
+    margin-right: 5px;
+    align-items: center;
+    
 }
 

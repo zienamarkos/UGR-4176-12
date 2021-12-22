@@ -2,7 +2,7 @@ html{
     scroll-behavior: smooth;
 }
 #home{
-    background-image: url("images/icewater.jpg");
+    background-image: url("../images/icewater.jpg");
     background-size: cover;
     
 }
@@ -31,7 +31,7 @@ h2{
     text-align: center;
 }
 .grid-container{
-    background-image: url("images/SE2.jpg");
+    background-image: url("../images/SE2.jpg");
     background-size: contain;
     display: grid;
     grid-template-columns: repeat(auto-fit,20rem);
@@ -78,7 +78,8 @@ h2{
 @media screen and (max-width:600px){
     .footer{
         height: 30px; 
-        font-size: large;  
+        font-size: small;  
     }
+    
 }
 
